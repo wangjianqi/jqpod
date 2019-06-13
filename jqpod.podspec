@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "jqpod"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "这是一个调试用的打印工具，在debug模式下可以输出需要打印的信息"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "这是一个调试用的打印工具，在debug模式下可以输出需要打印的信息,这是一个调试用的打印工具，在debug模式下可以输出需要打印的信息"
 
-  spec.homepage     = "http://EXAMPLE/jqpod"
+  spec.homepage     = "https://github.com/wangjianqi/jqpod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,6 +64,8 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   spec.platform     = :ios, "9.0"
+  #指定swift版本
+  spec.swift_version = '4.0'
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -126,7 +128,7 @@ Pod::Spec.new do |spec|
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
+  #  you can include multiple dependencies to ensure it works.swift
 
   # spec.requires_arc = true
 
