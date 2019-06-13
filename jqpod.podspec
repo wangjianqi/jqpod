@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "jqpod"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "这是一个调试用的打印工具，在debug模式下可以输出需要打印的信息"
 
   # This description is used to generate tags and improve search results.

@@ -9,5 +9,5 @@
 import UIKit
 
 class DebugPrint: NSObject {
-    print("test")
+    let a = 1
 }
