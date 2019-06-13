@@ -24,8 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "这是一个调试用的打印工具，在debug模式下可以输出需要打印的信息,这是一个调试用的打印工具，在debug模式下可以输出需要打印的信息"
 
   spec.homepage     = "http://EXAMPLE/jqpod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
